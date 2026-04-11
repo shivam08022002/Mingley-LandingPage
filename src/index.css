@@ -1262,3 +1262,51 @@ button { cursor: pointer; border: none; font-family: 'Lexend', sans-serif; }
   .download-title-row h2 { font-size: 30px; }
   .download-icon { width: 50px; height: 50px; }
 }
+
+@media (max-width: 390px) {
+ .download-buttons, .hero-buttons , .visible, .btn-store { 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 10px;
+  width: 100%;
+  font-size: 12px;
+  justify-content: center;
+} 
+ .btn-store-text span{
+  font-size: 8px !important;
+}
+.btn-store-text strong{
+  font-size: 12px !important;
+}
+
+.btn-store {
+  width: 100%;
+  justify-content: center;
+}
+.download-title-row{
+  left: 15%;
+  top: 25%;
+  justify-content: center;
+}
+.hero-love-arrow{
+  top: -40px;
+  right: -20px;
+}
+}
+  
+@media (max-width: 350px) {
+  .btn-store-text span{
+    font-size: 7px !important;
+  }
+  .btn-store-text strong{
+    font-size: 10px !important;
+  }
+  .btn-store-icon {
+  width: 15px;
+  height: 15px;
+}
+.btn-store-icon svg {
+  width: 15px;
+  height: 15px;
+}
+}
