@@ -531,6 +531,7 @@ button { cursor: pointer; border: none; font-family: 'Lexend', sans-serif; }
   z-index: -1;
   letter-spacing: 2px;
 }
+
 .section-header {
   text-align: center;
   margin-bottom: 60px;
@@ -545,7 +546,6 @@ button { cursor: pointer; border: none; font-family: 'Lexend', sans-serif; }
   position: absolute;
   top: 90%;
   left: 50%;
-  bottom: 30;
   transform: translate(-50%, -50%);
   font-size: 110px;
   font-weight: 900;
