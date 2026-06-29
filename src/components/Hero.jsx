@@ -128,7 +128,7 @@ export function StoreButton({ type }) {
 
   return (
     <a 
-      href="https://expo.dev/accounts/shivam404s-team/projects/mingley/builds/8ecf97b9-08e9-49e1-8745-4a0482764006" 
+      href="https://expo.dev/accounts/saurabhexpo_2024/projects/mingley/builds/c63919c5-3738-4377-9540-07ccea938510" 
       target="_blank" 
       rel="noopener noreferrer" 
       className="btn-store"
